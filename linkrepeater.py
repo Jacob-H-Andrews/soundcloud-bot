@@ -7,7 +7,7 @@ keyboard = KeyboardController()
 mouse = MouseController()
 
 for i in range(40):
-    webbrowser.open('https://soundcloud.com/jhakeuk/intentionsdnb')
+    webbrowser.open('https://soundcloud.com/jhakeuk/intentional')
     time.sleep(3)
     mouse.press(Button.left)
     mouse.release(Button.left)
